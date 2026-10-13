@@ -1,0 +1,12 @@
+{
+  "name": "nexi-fullstack",
+  "private": true,
+  "type": "module",
+  "workspaces": ["api", "sdk", "dashboard"],
+  "scripts": {
+    "dev:api": "npm run dev -w api",
+    "dev:dashboard": "npm run dev -w dashboard",
+    "test": "npm test -w api",
+    "build": "npm run build -w dashboard"
+  }
+}
